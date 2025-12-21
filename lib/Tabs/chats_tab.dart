@@ -25,7 +25,6 @@ class ChatsTab extends StatelessWidget {
             return const SizedBox();
           }
           if (state is UserChatListError) {
-            log(state.error);
             return Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,

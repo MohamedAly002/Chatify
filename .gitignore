@@ -44,3 +44,4 @@ app.*.map.json
 
 # Ignore Keys file or directory
 lib/Keys
+lib/firebase_options
