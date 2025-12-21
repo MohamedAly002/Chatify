@@ -1,6 +1,6 @@
 
-import 'package:chatify/Screens/home_screen.dart';
-import 'package:chatify/Screens/sign_in_screen.dart';
+import 'package:chatify/views/home_screen.dart';
+import 'package:chatify/views/sign_in_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

@@ -1,5 +1,5 @@
-import 'package:chatify/Screens/privacypolicy_screen.dart';
-import 'package:chatify/Screens/terms_conditions_screen.dart';
+import 'package:chatify/views/privacypolicy_screen.dart';
+import 'package:chatify/views/terms_conditions_screen.dart';
 import 'package:chatify/cubit/welcome_screen_cubit/cubit/welcome_screen_cubit.dart';
 import 'package:chatify/custom%20widgets/custom_button.dart';
 import 'package:chatify/helper/home_switcher.dart';

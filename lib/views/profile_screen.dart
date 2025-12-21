@@ -1,4 +1,4 @@
-import 'package:chatify/Screens/settings_screen.dart';
+import 'package:chatify/views/settings_screen.dart';
 import 'package:chatify/cubit/update_profile_info_cubit/cubit/edit_profile_info_cubit.dart';
 import 'package:chatify/helper/show_snack_bar.dart';
 import 'package:flutter/material.dart';

@@ -1,6 +1,6 @@
 import 'dart:developer';
-import 'package:chatify/Screens/create_group_screen.dart';
-import 'package:chatify/Screens/group_screen.dart';
+import 'package:chatify/views/create_group_screen.dart';
+import 'package:chatify/views/group_screen.dart';
 import 'package:chatify/cubit/group_list_cubit/cubit/group_list_cubit.dart';
 import 'package:chatify/custom%20widgets/custom_button.dart';
 import 'package:chatify/custom%20widgets/groupList_card.dart';

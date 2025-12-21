@@ -1,4 +1,4 @@
-import 'package:chatify/Screens/home_screen.dart';
+import 'package:chatify/views/home_screen.dart';
 import 'package:chatify/cubit/profile_photo_cubit/cubit/profile_photo_cubit.dart';
 import 'package:chatify/cubit/profile_photo_cubit/cubit/profile_photo_state.dart';
 import 'package:chatify/custom%20widgets/custom_loading_indicator.dart';

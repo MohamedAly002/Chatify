@@ -1,5 +1,5 @@
 import 'package:another_flutter_splash_screen/another_flutter_splash_screen.dart';
-import 'package:chatify/Screens/welcome_screen.dart';
+import 'package:chatify/views/welcome_screen.dart';
 import 'package:chatify/cubit/welcome_screen_cubit/cubit/welcome_screen_cubit.dart';
 import 'package:chatify/helper/home_switcher.dart';
 import 'package:flutter/material.dart';

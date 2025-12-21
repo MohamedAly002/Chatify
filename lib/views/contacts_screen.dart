@@ -1,6 +1,6 @@
 import 'dart:developer';
-import 'package:chatify/Screens/chat_screen.dart';
-import 'package:chatify/Screens/home_screen.dart';
+import 'package:chatify/views/chat_screen.dart';
+import 'package:chatify/views/home_screen.dart';
 import 'package:chatify/cubit/users_list_cubit/users_list_state.dart';
 import 'package:chatify/cubit/users_list_cubit/users_list_cubit.dart';
 import 'package:chatify/custom%20widgets/custom_loading_indicator.dart';

@@ -1,4 +1,4 @@
-import 'package:chatify/Screens/sign_in_screen.dart';
+import 'package:chatify/views/sign_in_screen.dart';
 import 'package:chatify/cubit/forget_password_cubit/cubit/forget_password_cubit.dart';
 import 'package:chatify/cubit/forget_password_cubit/cubit/forget_password_state.dart';
 import 'package:chatify/custom%20widgets/custom_button.dart';

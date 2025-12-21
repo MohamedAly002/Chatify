@@ -1,6 +1,6 @@
-import 'package:chatify/Screens/contacts_screen.dart';
-import 'package:chatify/Screens/create_group_screen.dart';
-import 'package:chatify/Screens/settings_screen.dart';
+import 'package:chatify/views/contacts_screen.dart';
+import 'package:chatify/views/create_group_screen.dart';
+import 'package:chatify/views/settings_screen.dart';
 import 'package:chatify/Tabs/chats_tab.dart';
 import 'package:chatify/Tabs/groups_tab.dart';
 import 'package:flutter/material.dart';

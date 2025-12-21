@@ -1,4 +1,4 @@
-import 'package:chatify/Screens/select_photo_screen.dart';
+import 'package:chatify/views/select_photo_screen.dart';
 import 'package:chatify/cubit/auth_cubit/auth_cubit.dart';
 import 'package:chatify/cubit/auth_cubit/auth_states.dart';
 import 'package:chatify/custom%20widgets/custom_button.dart';

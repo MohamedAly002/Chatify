@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:chatify/Screens/chat_screen.dart';
-import 'package:chatify/Screens/contacts_screen.dart';
+import 'package:chatify/views/chat_screen.dart';
+import 'package:chatify/views/contacts_screen.dart';
 import 'package:chatify/cubit/user_chatList_cubit/cubit/user_chatList_cubit.dart';
 import 'package:chatify/custom%20widgets/chatList_card.dart';
 import 'package:chatify/custom%20widgets/custom_button.dart';

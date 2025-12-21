@@ -1,6 +1,6 @@
-import 'package:chatify/Screens/home_screen.dart';
-import 'package:chatify/Screens/profile_screen.dart';
-import 'package:chatify/Screens/sign_in_screen.dart';
+import 'package:chatify/views/home_screen.dart';
+import 'package:chatify/views/profile_screen.dart';
+import 'package:chatify/views/sign_in_screen.dart';
 import 'package:chatify/cubit/auth_cubit/auth_cubit.dart';
 import 'package:chatify/cubit/auth_cubit/auth_states.dart';
 import 'package:chatify/cubit/user_info_cubit/cubit/user_info_cubit.dart';
