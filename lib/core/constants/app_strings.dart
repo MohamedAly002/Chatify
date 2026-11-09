@@ -1,0 +1,109 @@
+/// User-facing copy shared throughout Chatify.
+abstract final class AppStrings {
+  static const appName = 'Chatify';
+  static const chats = 'Chats';
+  static const groups = 'Groups';
+  static const newGroup = 'New group';
+  static const settings = 'Settings';
+  static const sendMessage = 'Send Message';
+  static const profile = 'Profile';
+  static const chooseProfilePicture = 'Choose Profile Picture';
+  static const chooseFromGallery = 'Choose from Gallery';
+  static const continueLabel = 'Continue';
+  static const createGroup = 'Create Group';
+  static const createGroupAction = 'Create Group';
+  static const createYourGroup = 'Create your Group';
+  static const enterGroupName = 'Enter Group Name';
+  static const pleaseEnterGroupName = 'Please enter group name';
+  static const selectContact = 'Select contact';
+  static const contactsOnChatify = 'Contacts on Chatify';
+  static const noContactsAvailable = 'No contacts available.';
+  static const somethingWentWrong = 'Something went wrong.';
+  static const checkInternetConnection =
+      'Please check your internet connection.';
+  static const retry = 'Retry';
+  static const startChatting = 'Start Chatting';
+  static const noChatsYet = 'You haven’t chat yet';
+  static const noGroupsYet = 'You haven’t Groups yet';
+  static const unknown = 'Unknown';
+  static const unknownUser = 'Unknown User';
+  static const available = 'available';
+  static const errorPrefix = 'Error: ';
+  static const logout = 'Logout';
+  static const username = 'Username';
+  static const email = 'Email';
+  static const about = 'About';
+  static const privacyPolicy = 'Privacy Policy';
+  static const termsAndConditions = 'Terms and Conditions';
+  static const forgotPassword = 'Forgot Password';
+  static const noAccount = "Don't have an account ?";
+  static const haveAccount = 'Have an account ?';
+  static const joinConversation = 'Join the Conversation';
+  static const signInSubtitle = 'Sign in to connect with your friends.';
+  static const signIn = 'Sign In';
+  static const signUp = 'Sign Up';
+  static const signUpLink = 'SignUp';
+  static const signInNow = 'Sign In Now';
+  static const forgetPasswordQuestion = 'Forget Password?';
+  static const enterYourEmail = 'Enter Your Email';
+  static const enterYourPassword = 'Enter Your Password';
+  static const enterYourUsername = 'Enter Your Username';
+  static const confirmYourPassword = 'Confirm Your Password';
+  static const pleaseEnterYourEmail = 'Please Enter Your Email';
+  static const pleaseEnterYourPassword = 'Please Enter Your Password';
+  static const pleaseEnterYourUsername = 'Please Enter Your Username';
+  static const invalidEmailFormat = 'Invalid Email Format';
+  static const invalidEmailOrPassword = 'invalid Email or Password';
+  static const passwordTooShort = 'Password must be at least 6 characters';
+  static const passwordMismatch = "Password doesn't match";
+  static const resetPassword = 'Reset Password';
+  static const passwordResetSent =
+      'Code was sent to your email.\nplease Check your Email to reset passwaord';
+  static const accountCreated =
+      'User Created Successfully. Please upload a profile photo.';
+  static const welcomeTitle = 'Welcome to Chatify';
+  static const readOur = 'Read our ';
+  static const welcomeAgreementLead = '. Tap "Agree and Continue" to accept ';
+  static const termsOfServices = 'Terms of Services.';
+  static const agreeAndContinue = 'Agree and Continue';
+  static const privacyPolicyPlaceholder =
+      'Here you can add the details of your privacy policy...';
+  static const termsTitle = 'Terms & Conditions';
+  static const termsPlaceholder =
+      'Here you can add the details of your terms & conditions...';
+  static const sending = 'sending...';
+  static const ellipsis = '...';
+  static const yourMessagePrefix = 'You: ';
+  static const profileUpdated = 'Profile Updated Successfully';
+  static const noChangesFound = 'No changes found';
+  static const nameLabel = 'Name ';
+  static const aboutLabel = 'About ';
+  static const emailLabel = 'Email ';
+  static const nameRequired = "Name can't be empty";
+  static const aboutRequired = "About can't be empty";
+  static const save = 'Save';
+  static const errorDetailsPrefix = 'Something went wrong: ';
+  static const noUserLoggedIn = 'User not logged in.';
+  static const noImageSelected = 'No image selected.';
+  static const noImageSelectedToUpload = 'No image selected to upload.';
+  static const failedToPickImage = 'Failed to pick image: ';
+  static const failedToUpdateInformation =
+      'Failed to update your information: ';
+  static const failedToCreateGroup = 'Failed to create group: ';
+  static const failedToSignOut = 'Failed to sign out: ';
+  static const userInformationNotFound = 'User information not found.';
+  static const failedToFetchUserInfo = 'Failed to fetch user info: ';
+  static const noUserFoundForEmail = 'No user found for that email.';
+  static const wrongPassword = 'Wrong password provided for that user.';
+  static const weakPassword = 'The password provided is too weak.';
+  static const accountAlreadyExists =
+      'The account already exists for that email.';
+  static const failedToPickImagePrefix = 'Failed to pick image: ';
+  static const failedToCreateGroupPrefix = 'Failed to create group: ';
+  static const failedToSignOutPrefix = 'Failed to sign out: ';
+  static const failedToUploadImage = 'Failed to upload image: ';
+  static const unexpectedError = 'An error occurred: ';
+  static const userNotAuthenticated = 'User not authenticated.';
+  static const noEmailProvided = 'No email provided';
+  static const senderPrefix = '~';
+}
