@@ -17,8 +17,7 @@ Future<void> main() async {
     url: SupabaseConfig.supabaseUrl,
     publishableKey: SupabaseConfig.supabasePublishableKey,
   );
-  runApp(const MyApp());flutter clean
-flutter pub get
+  runApp(const MyApp());  
 }
 
 class MyApp extends StatelessWidget {
