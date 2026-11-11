@@ -33,7 +33,12 @@ class _SplashScreenState extends State<SplashScreen> {
             width: 200,
             child: Image.asset("assets/chatify_logo.png"),
           ),
-          nextScreen:state is WelcomeScreenNotfirsttime && state.isFirstLaunch? const WelcomeScreen(): const HomeSwitcher(),
+          nextScreen: state is WelcomeScreenNotfirsttime && state.isFirstLaunch
+              ? BlocProvider(
+                  create: (_) => WelcomeScreenCubit(),
+                  child: const WelcomeScreen(),
+                )
+              : const HomeSwitcher(),
         );
       },
     );

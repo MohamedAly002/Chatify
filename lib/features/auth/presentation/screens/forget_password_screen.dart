@@ -22,6 +22,10 @@ class ForgetPassword extends StatelessWidget {
       r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$',
     );
     return Scaffold(
+      appBar: AppBar(
+        title: Text(AppStrings.resetPassword,
+            style: TextStyle(color: Theme.of(context).colorScheme.primary)),
+      ),
       body: BlocConsumer<ForgetPasswordCubit, ForgetPasswordState>(
           listener: (context, state) {
         if (state is ForgetPasswordLoading) {
@@ -31,8 +35,7 @@ class ForgetPassword extends StatelessWidget {
               barrierDismissible: false);
         }
         if (state is ForgetPasswordSuccess) {
-          showSnackBar(context,
-              AppStrings.passwordResetSent);
+          showSnackBar(context, AppStrings.passwordResetSent);
           Navigator.popAndPushNamed(context, SignInScreen.routeName);
         } else if (state is ForgetPasswordError) {
           Navigator.pop(context);

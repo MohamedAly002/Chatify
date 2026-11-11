@@ -17,6 +17,7 @@ abstract final class AppTheme {
           foregroundColor: AppColors.textPrimary,
           elevation: 0,
           centerTitle: false,
+          titleSpacing: 0,
         ),
         tabBarTheme: const TabBarThemeData(
           indicatorColor: AppColors.primary,
